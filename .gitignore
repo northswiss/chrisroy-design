@@ -1,1 +1,10 @@
 node_modules
+.cache/
+package-lock.json
+public/render-page.js
+public/render-page.js.map
+public/webpack.stats.json
+public/chunk-map.json
+package-lock.json
+public/page-data/dev-404-page/page-data.json
+public/page-data/dev-404-page/page-data.json

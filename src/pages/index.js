@@ -1,18 +1,34 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
+
+import Container from "../components/layout/Container"
+import Header from "../components/Header"
+import LinkExternal from "../components/LinkExternal"
 
 function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
-      <a href="/">
-      <img src="/images/logos/northswiss-color.svg" alt="northswiss logo" />
-      </a>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
+      <Container>
+        <Header />
+        <p>
+          Helping to solve last mile logistics as a{" "}
+          <strong>Head of Product Design</strong>{" "}
+          <LinkExternal url="https://stuart.com" title="Visit the Stuart company website">
+            @Stuart
+          </LinkExternal>
+          .
+          <br />I also host the{" "}
+          <LinkExternal
+            url="https://www.meetup.com/product-design-barcelona/"
+            title="Product Design Barcelona Meetup Group"
+          >
+            @Product Design Barcelona Meetup
+          </LinkExternal>
+          .
+        </p>
+      </Container>
     </Layout>
   )
 }
