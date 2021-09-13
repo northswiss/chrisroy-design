@@ -1,8 +1,3 @@
 node_modules
 .cache/
 package-lock.json
-public/render-page.js
-public/render-page.js.map
-public/webpack.stats.json
-public/chunk-map.json
-package-lock.json
